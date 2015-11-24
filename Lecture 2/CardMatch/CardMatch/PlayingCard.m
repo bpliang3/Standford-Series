@@ -25,7 +25,7 @@
 
 + (NSArray *)validSuits // class method, not instance method. Use for creating things, and utility methods
 {
-    return @[@"Heart", @"Spade", @"Diamond", @"Club"];
+    return @[@"♥️", @"♦️", @"♣️", @"♠️"];
 }
 
 + (NSArray *)rankStrings

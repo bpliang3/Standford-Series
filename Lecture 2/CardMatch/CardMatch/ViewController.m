@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PlayingCard.h"
+#import "PlayingCardDeck.h"
 
 @interface ViewController ()
 
@@ -16,15 +18,21 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender {
     
+    PlayingCardDeck *Deck = [PlayingCardDeck new];
+    PlayingCard *Card  = (PlayingCard*)Deck.drawRandomCard;
     
     if ([sender.currentTitle length]) {
         [sender setBackgroundImage: [UIImage imageNamed:@"CardBack"]
                           forState:UIControlStateNormal];
         [sender setTitle:@"" forState:UIControlStateNormal];
     } else {
+    
         [sender setBackgroundImage: [UIImage imageNamed:@"CardFront"]
                         forState:UIControlStateNormal];
-        [sender setTitle:@"HELLO" forState:UIControlStateNormal];
+        [sender setTitle:Card.contents
+                forState:UIControlStateNormal];
+        NSLog(@"card contents = %@", Card.contents);
+
     }
     
 }
