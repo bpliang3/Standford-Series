@@ -31,7 +31,7 @@
                         forState:UIControlStateNormal];
         [sender setTitle:Card.contents
                 forState:UIControlStateNormal];
-        NSLog(@"card contents = %@", Card.contents);
+       // NSLog(@"card contents = %@", Card.contents);
 
     }
     
