@@ -2,42 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../CardMatch/PlayingCardDeck.h">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/PlayingCardDeck.m">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/PlayingCardDeck.xib">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/PlayingCard.h">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/PlayingCard.m">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/PlayingCard.xib">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Deck.h">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Deck.m">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Deck.xib">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Card.h">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Card.m">
-   </FileRef>
-   <FileRef
-      location = "group:../CardMatch/Card.xib">
-   </FileRef>
-   <FileRef
       location = "self:CardMatch.xcodeproj">
    </FileRef>
 </Workspace>
