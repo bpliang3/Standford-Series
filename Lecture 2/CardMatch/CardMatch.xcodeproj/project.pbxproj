@@ -15,13 +15,9 @@
 		BB575A721C04F78100611396 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB575A701C04F78100611396 /* LaunchScreen.xib */; };
 		BB575A7E1C04F78100611396 /* CardMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB575A7D1C04F78100611396 /* CardMatchTests.m */; };
 		BB575A941C04FF0800611396 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BB575A921C04FF0800611396 /* Card.m */; };
-		BB575A951C04FF0800611396 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB575A931C04FF0800611396 /* Card.xib */; };
 		BB575A991C05006800611396 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = BB575A971C05006800611396 /* Deck.m */; };
-		BB575A9A1C05006800611396 /* Deck.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB575A981C05006800611396 /* Deck.xib */; };
 		BB575A9F1C05036200611396 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BB575A9D1C05036200611396 /* PlayingCard.m */; };
-		BB575AA01C05036200611396 /* PlayingCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB575A9E1C05036200611396 /* PlayingCard.xib */; };
 		BB575AA51C0503D800611396 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BB575AA31C0503D800611396 /* PlayingCardDeck.m */; };
-		BB575AA61C0503D800611396 /* PlayingCardDeck.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB575AA41C0503D800611396 /* PlayingCardDeck.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +46,12 @@
 		BB575A7D1C04F78100611396 /* CardMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchTests.m; sourceTree = "<group>"; };
 		BB575A911C04FF0800611396 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		BB575A921C04FF0800611396 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		BB575A931C04FF0800611396 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
 		BB575A961C05006800611396 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		BB575A971C05006800611396 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
-		BB575A981C05006800611396 /* Deck.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Deck.xib; sourceTree = "<group>"; };
 		BB575A9C1C05036200611396 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		BB575A9D1C05036200611396 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
-		BB575A9E1C05036200611396 /* PlayingCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayingCard.xib; sourceTree = "<group>"; };
 		BB575AA21C0503D800611396 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		BB575AA31C0503D800611396 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
-		BB575AA41C0503D800611396 /* PlayingCardDeck.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayingCardDeck.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +138,6 @@
 			children = (
 				BB575A911C04FF0800611396 /* Card.h */,
 				BB575A921C04FF0800611396 /* Card.m */,
-				BB575A931C04FF0800611396 /* Card.xib */,
 				BB575AA11C05036700611396 /* PlayingCard */,
 			);
 			name = Card;
@@ -157,7 +148,6 @@
 			children = (
 				BB575A961C05006800611396 /* Deck.h */,
 				BB575A971C05006800611396 /* Deck.m */,
-				BB575A981C05006800611396 /* Deck.xib */,
 				BB575AA81C0504FB00611396 /* PlayingCardDeck */,
 			);
 			name = Deck;
@@ -168,7 +158,6 @@
 			children = (
 				BB575A9C1C05036200611396 /* PlayingCard.h */,
 				BB575A9D1C05036200611396 /* PlayingCard.m */,
-				BB575A9E1C05036200611396 /* PlayingCard.xib */,
 			);
 			name = PlayingCard;
 			sourceTree = "<group>";
@@ -176,7 +165,6 @@
 		BB575AA81C0504FB00611396 /* PlayingCardDeck */ = {
 			isa = PBXGroup;
 			children = (
-				BB575AA41C0503D800611396 /* PlayingCardDeck.xib */,
 				BB575AA31C0503D800611396 /* PlayingCardDeck.m */,
 				BB575AA21C0503D800611396 /* PlayingCardDeck.h */,
 			);
@@ -264,12 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB575A6D1C04F78100611396 /* Main.storyboard in Resources */,
-				BB575AA61C0503D800611396 /* PlayingCardDeck.xib in Resources */,
-				BB575A9A1C05006800611396 /* Deck.xib in Resources */,
-				BB575AA01C05036200611396 /* PlayingCard.xib in Resources */,
 				BB575A721C04F78100611396 /* LaunchScreen.xib in Resources */,
 				BB575A6F1C04F78100611396 /* Images.xcassets in Resources */,
-				BB575A951C04FF0800611396 /* Card.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
