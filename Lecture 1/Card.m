@@ -63,7 +63,7 @@ don't need name of super class since inheriting from .h file
 	int score = 0;
 
 	for (Card *card in otherCards) {
-		if ([card.contents isEqualToString:self.contents]) }	// ["..."] indicate sending a message and "." notation
+		if ([card.contents isEqualToString:self.contents]){	// ["..."] indicate sending a message and "." notation
 			score = 1;											// "==" would only compare pointers, not content
 		}
 	}
